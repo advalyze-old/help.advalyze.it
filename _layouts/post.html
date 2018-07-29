@@ -11,7 +11,7 @@ layout: default
 			<header>
 				<h2>{{- page.title -}}</h2>
 				<p>{% if page.author %}{{ page.author }}, {% endif %}{{- page.date | date_to_long_string -}}</p>
-				{% if page.teaser.image %}<img src="{{ page.teaser.image | relative_url }}" alt="" />{% endif %}
+				{% if page.teaser-image %}<div class="image fit"><img src="{{ page.teaser-image | relative_url }}" alt="" /></div>{% endif %}
 			</header>
 	    {{- content -}}
 	  </div>

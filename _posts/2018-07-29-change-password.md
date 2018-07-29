@@ -2,7 +2,7 @@
 title: Change your password
 author: Robert
 layout: post
-teaser.image: assets/images/posts/markus-spiske-507983-unsplash.jpg
+teaser-image: assets/images/posts/markus-spiske-507983-unsplash.jpg
 ---
 
 Photo by [Markus Spiske](https://unsplash.com/photos/466ENaLuhLY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

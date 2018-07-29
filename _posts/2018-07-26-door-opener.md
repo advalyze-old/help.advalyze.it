@@ -2,7 +2,7 @@
 title: Door opener
 author: Robert
 layout: post
-teaser.image: assets/images/posts/louis-reed-747404-unsplash.jpg
+teaser-image: assets/images/posts/louis-reed-747404-unsplash.jpg
 ---
 
 Photo by [Louis Reed](https://unsplash.com/photos/zDxlNcdUzxk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
