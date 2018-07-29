@@ -4,8 +4,7 @@
   {%- endif -%}
   
   <!-- Robots -->
-  <!-- <meta name="robots" content="{{- page.robots | default: 'index, follow' -}}" /> -->
-  <meta name="robots" content="noindex, nofollow" />
+  <meta name="robots" content="{{- page.robots | default: 'noindex, nofollow' -}}" />
   {%- unless page.canonical == false -%}<link rel="canonical" href="{{- page.url | absolute_url -}}" />{%- endunless -%}
   
   <!-- Title, description, author -->

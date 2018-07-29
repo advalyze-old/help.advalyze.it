@@ -38,6 +38,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 author: Robert
 email: hello@advalyze.it
 avatar: assets/images/advalyze_logo.png
+robots: noindex, nofollow
 
 # You'll want to customize url and baseurl for your own site:
 baseurl: "/" # the subpath of your site, e.g. /blog
