@@ -3,12 +3,19 @@ layout: default
 ---
 {%- include header.html -%}
 
+<style type='text/css'>
+    img.postbg {
+        -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+        mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    }
+</style>
+
 <!-- Main -->
 <div id="main">
     <!-- Post -->
     <article class="shade-two {% if page.teaser-image %}image fit{% endif %}">
         <div class="container">
-            {% if page.teaser-image %}<img src="{{ page.teaser-image | relative_url }}" alt=""/>{% endif %}
+            {% if page.teaser-image %}<img class="postbg" src="{{ page.teaser-image | relative_url }}" alt=""/>{% endif %} -->
             <header>
                 <h2>{{- page.title -}}</h2>
                 <p>{% if page.author %}{{ page.author }}, {% endif %}{{- page.date | date_to_long_string -}}</p>
