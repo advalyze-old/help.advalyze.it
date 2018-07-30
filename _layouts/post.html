@@ -15,12 +15,12 @@ layout: default
     <!-- Post -->
     <article class="shade-two {% if page.teaser-image %}image fit{% endif %}">
         <div class="container">
-            {% if page.teaser-image %}<img class="postbg" src="{{ page.teaser-image | relative_url }}" alt=""/>{% endif %} -->
+            {% if page.teaser-image %}<img class="postbg" src="{{ page.teaser-image | relative_url }}" alt=""/>{% endif %}
             <header>
                 <h2>{{- page.title -}}</h2>
                 <p>{% if page.author %}{{ page.author }}, {% endif %}{{- page.date | date_to_long_string -}}</p>
             </header>
-            {{- content -}}
         </div>
+        {{- content -}}
     </article>
 </div>
